@@ -9,6 +9,7 @@
     &__filter {
       align-items: center;
       background-color: $primary;
+      color: $secondary;
       border: none;
       border-radius: 4px;
       display: flex;
@@ -18,7 +19,7 @@
       justify-content: center;
       width: 150px;
       &--actived {
-        background-color: $secondary;
+        background-color: $tertiary;
         color: $primary;
       }
       &:hover {
