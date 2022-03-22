@@ -4,6 +4,7 @@ import Logo from 'assets/logo.png';
 import Search from './Search';
 import {useState} from "react";
 import Filters from './Filters';
+import Select from './Select';
 
 export default function Menu() {
     const [search, setSearch] = useState("");
@@ -21,6 +22,7 @@ export default function Menu() {
                 <Search search={search} setSearch={setSearch} />
                 <div className={styles.options__filters}>
                     <Filters filter={filter} setFilter={setFilter}/>
+                    <Select />
                 </div>
             </section>
         </main>
