@@ -3,6 +3,7 @@ import styles from './Menu.module.scss';
 import Logo from 'assets/logo.png';
 import Search from './Search';
 import {useState} from "react";
+import Filters from './Filters';
 
 export default function Menu() {
     const [search, setSearch] = useState("");
@@ -17,6 +18,9 @@ export default function Menu() {
             <section className={styles.options}>
                 <h3 className={styles.options__title}>Menu</h3>
                 <Search search={search} setSearch={setSearch} />
+                <div className={styles.options__filters}>
+                    <Filters />
+                </div>
             </section>
         </main>
     )
