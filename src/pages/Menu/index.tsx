@@ -15,7 +15,7 @@ export default function Menu() {
                 <div className={styles.header__text}>My Projects</div>
             </header>
             <section className={styles.options}>
-                <h3 className={styles.options__title}>Cardápio</h3>
+                <h3 className={styles.options__title}>Menu</h3>
                 <Search search={search} setSearch={setSearch} />
             </section>
         </main>
