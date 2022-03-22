@@ -1,0 +1,30 @@
+@import "styles/variaveis";
+
+.menu {
+    padding: 15px $padding-horizontal;
+}
+
+.header {
+    align-items: center;
+    background-image: url('/assets/Menu/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    padding: 0px $padding-horizontal;
+    filter: blur(0rem);
+    &__text {
+        color: #1d2a3a;
+        font-size: 6rem;
+        min-width: 150px;
+        width: 100%;
+        -webkit-text-stroke-width: 0.08rem;
+        -webkit-text-stroke-color: #fde9d1;
+    }
+}
+
+.options {
+    &__title {
+        
+    }
+}
