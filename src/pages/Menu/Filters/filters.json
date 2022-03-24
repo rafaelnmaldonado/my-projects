@@ -1,18 +1,18 @@
 [
     {
-      "label": "Um",
+      "label": "JavaScript",
       "id": 1
     },
     {
-      "label": "Dois",
+      "label": "Java",
       "id": 2
     },
     {
-      "label": "Três",
+      "label": "C#",
       "id": 3
     },
     {
-      "label": "Quatro",
+      "label": "React",
       "id": 4
     }
   ]
