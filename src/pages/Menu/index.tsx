@@ -9,6 +9,7 @@ import Select from './Select';
 export default function Menu() {
     const [search, setSearch] = useState("");
     const [filter, setFilter] = useState<number | null>(null);
+    const [select, setSelect] = useState("");
     return (
         <main>
             <nav className={styles.menu}>
@@ -22,7 +23,7 @@ export default function Menu() {
                 <Search search={search} setSearch={setSearch} />
                 <div className={styles.options__filters}>
                     <Filters filter={filter} setFilter={setFilter}/>
-                    <Select />
+                    <Select select={select} setSelect={setSelect}/>
                 </div>
             </section>
         </main>

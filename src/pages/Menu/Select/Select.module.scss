@@ -2,6 +2,7 @@
 
 .select {
   align-items: center;
+  color: $secondary;
   background-color: $primary;
   border: none;
   border-top-left-radius: 4px;
@@ -32,9 +33,9 @@
   &__option {
     align-items: center;
     background-color: $primary;
-    border-top: 2px solid $quaternary;
+    border-top: 2px solid $secondary;
     box-sizing: border-box;
-    color: $black;
+    color: $secondary;
     display: flex;
     height: 40px;
     justify-content: center;
