@@ -9,10 +9,10 @@ interface Props {
 
 export default function Search({search, setSearch}: Props) {
     return <div className={styles.search}>
-        <input 
-            value={search} 
+        <input
+            value={search}
             onChange={event => setSearch(event.target.value)}
-            placeholder="Buscar"
+            placeholder="Search"
         />
         <CgSearch size={20} color="#1d2a3a"/>
     </div>
